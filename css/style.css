@@ -105,7 +105,7 @@ body {
   top: 4%;
   display: block;
   z-index: 20;
-  color: #fff;
+  color: #ccc;
   display: block;
   font-family: "Roboto", sans-serif;
   /* font-weight: 900; */
@@ -113,8 +113,8 @@ body {
 
   }
   
-    .slider__user2:hover {
-    color: #78A300; }
+    .slider__user2:a hover {
+    color: #e4e4e4; }
   
   
   
