@@ -98,6 +98,14 @@ body {
   display: block;
   z-index: 20;
   color: #fff; }
+  
+  .slider__user2 {
+  position: absolute;
+  right: 60px;
+  top: 55px;
+  display: block;
+  z-index: 20;
+  color: #fff; }
 
 .slider__user-logo {
   background: url(../img/logo-brat-wallet.png) no-repeat left;	
