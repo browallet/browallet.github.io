@@ -101,11 +101,17 @@ body {
   
   .slider__user2 {
   position: absolute;
-  right: 60px;
-  top: 55px;
+  left: 72%;
+  top: 4%;
   display: block;
   z-index: 20;
-  color: #fff; }
+  color: #fff;
+  display: block;
+  font-family: "Roboto", sans-serif;
+  /* font-weight: 900; */
+  font-size: 15.5px;
+
+  }
 
 .slider__user-logo {
   background: url(../img/logo-brat-wallet.png) no-repeat left;	
