@@ -24,17 +24,17 @@ body {
   width: 300vw; }
 
 .main__slider-item-1 {
-  background: url(../img/slider/slider-item-1.png) no-repeat;
+  background: url(../img/slider/slider-item-1.jpg) no-repeat;
   background-size: cover;
   background-position: 0 -100px; }
 
 .main__slider-item-2 {
-  background: url(../img/slider/slider-item-2.png) no-repeat;
+  background: url(../img/slider/slider-item-2.jpg) no-repeat;
   background-size: cover;
   background-position: 0 -100px; }
 
 .main__slider-item-3 {
-  background: url(../img/slider/slider-item-3.png) no-repeat;
+  background: url(../img/slider/slider-item-3.jpg) no-repeat;
   background-size: cover;
   background-position: 0 -100px; }
 
