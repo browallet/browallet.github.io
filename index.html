@@ -1,7 +1,151 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>BROWALLET / BROTHER TOKEN BRAT  </title>
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"> 
+    
+
+    
+    
+    
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,900" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted withs GitHub Pages.</p>
+	<main class="main">
+		<section class="main__slider">
+			<div class="main__slider-overlay"></div>
+			<div class="main__slider-item main__slider-item-1 active-slider">
+				<div class="main__slider-content">
+					<span class="main__slider-subtitle">
+						What is a brother?
+					</span>
+					<span class="main__slider-title">
+						help and charity
+					</span>
+				
+	                                <a href="#" class="main__slider-subtitle">
+					To learn more...
+					</a>
+
+                    		</div>
+			</div>
+			<div class="main__slider-item main__slider-item-2">
+				<div class="main__slider-content">
+					<span class="main__slider-subtitle">
+						What is a brother?
+					</span>
+					<span class="main__slider-title">
+						reliable friends
+					</span>
+					<a href="#" class="main__slider-subtitle">
+						To learn more...
+					</a>
+				</div>
+			</div>
+			<div class="main__slider-item main__slider-item-3">
+				<div class="main__slider-content">
+					<span class="main__slider-subtitle">
+						What is a brother?
+					</span>
+					<span class="main__slider-title">
+						your character
+					</span>
+					<a href="#" class="main__slider-subtitle">
+						To learn more...
+					</a>
+				</div>
+			</div>
+			<div class="slider-controller">
+				<input type="radio" name="slider" id="slider_1" checked>
+				<label for="slider_1"></label>			
+				<input type="radio" name="slider" id="slider_2">
+				<label for="slider_2"></label>
+				<input type="radio" name="slider" id="slider_3">
+				<label for="slider_3"></label>
+			</div>
+			<div class="slider__user">
+				<div class="slider__user-logo">
+				</div>
+				<!--<div class="slider__user-info">
+					
+				</div> -->
+				<div class="slider__user-info-table">
+					<span class="info-table-name">
+						My ETH: <span class="info-table-value" id="myethbalance">loading...</span>
+					</span>
+					<span class="info-table-name">
+						Time: <span class="info-table-value" id="currenttime">loading...</span>
+					</span>
+					<span class="info-table-name">
+						<a href="https://etherscan.io/token/0x9e77d5a1251b6f7d456722a6eac6d2d5980bd891" target="_blank" style="color: white;">View ERC20 token</a>
+					</span>
+				</div>
+				<a href="https://goo.gl/forms/bBQM97myVDA28aTc2" target="_blank"> <button class="slider__user-btn">Bug Bounty & feedback</button></a>
+			</div>
+			<form action="" class="main__form">
+				<span class="form-title">
+					MY BRAT balance
+				</span>
+				<input class="form__main-info" value="loading..." disabled id="mybalance">
+				<div class="form__copy">
+					<span id="myaddress">loading...</span>
+				</div>
+				
+				<!-- <i class="copy-icon">
+					<img src="img/copy-icon.png" alt="Copy icon">
+				</i> -->
+				<a href="" target="_blank" id="viewOnEtherscan"><span class="form-btn">View transaction history in etherscan.io	</span></a>
+				<label>
+					BRAT SEND
+					<input type="text" class="form-input form-input-big" placeholder="000 000.000" id="sendAmount">
+				</label>
+				<label>
+					ADDRESS SEND
+					<input type="text" class="form-input form-input-small" id="sendAddress">
+				</label>
+                
+               					<input type="checkbox" name="license" id="license">
+				<label class="license-label" for="license">I have read and agree with the <a href="https://github.com/browallet/alfa/blob/master/Denial%20of%20responsibility.md" target="_blank" style="color: white;">conditions</a>,
+<a href="https://github.com/browallet/alfa/blob/master/Provide%20your%20protection%20yourself.md" target="_blank" style="color: white;"> notice</a>.		
+				</label> 
+                
+				<button onclick="javascript:sendBrat();return false;" class="form-btn-b form-btn-big">SEND TOKEN BRAT</button>
+				
+				<a href="https://www.myetherwallet.com/" target="_blank" class="form-link form-link-left">Alternative wallet</a>
+
+				<a href="https://github.com/browallet/alfa/blob/master/README.md" target="_blank" class="form-link form-link-right">WALLET VERSION: 1.0.0</a>
+			</form>
+			<img src="img/line-1.png" alt="Line" class="line-1">
+			<img src="img/line-2.png" alt="Line" class="line-2">
+		</section>
+		<footer class="footer">
+			<div class="footer-links">
+				<a href="https://browallet.github.io/alfa/">BroWallet</a>
+				<a href="https://github.com/browallet/alfa/blob/master/Cookies.md">Cookies</a>
+				
+			</div>
+			<div class="footer-links">
+				<a href="http://bro-consortium.io/">bro-consortium.io</a>
+			</div>
+		</footer>
+	</main>
 </body>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/bignumber.js/4.0.4/bignumber.min.js'></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="js/main.js"></script>
+<script src="js/app.js"></script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-102682784-4"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-102682784-4');
+</script>
+
+
 </html>
